@@ -1,0 +1,300 @@
+body{
+  background-color: #000095
+}
+
+.zonaDeJuego{
+  position: absolute;
+  margin: 50px 100px;
+  padding: 10px 10px;
+  width: 500px;
+  height: 500px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+div{
+  background-color: #4BFFCC;
+  height: 5em;
+  width: 5em;
+  transition: background 0.5s;
+  margin: auto;
+  border-radius: 100%;
+  float: right;
+  diplay:block;
+}
+
+#reinicio{
+display: none;
+}
+
+
+p{
+  background-color: transparent;
+  height: 5em;
+  width: 5em;
+  margin: auto;
+  border-radius: 100%;
+  transition: background 5s;
+  display: block;
+}
+
+/*cambio de fodo*/
+
+.uno:active{
+  background-color: black;
+  transition: all 0.2s;
+}
+
+.dos:active{
+background-color: red;
+transition: all 0.2s;
+}
+
+.tres:active{
+background-color: purple;
+transition: all 0.2s;
+}
+
+.cuatro:active{
+background-color: green;
+transition: all 0.2s;
+}
+
+.cinco:active{
+background-color: #00FF00;
+transition: all 0.2s;
+left: 50%;
+}
+
+.seis:active{
+background-color: transparent;
+transition: all 0.2s;
+
+}
+/*a animm*/
+
+.auno{
+  display: block;
+  animation-name: uno;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.ados{
+  display: block;
+  animation-name: dos;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.atres{
+  display: block;
+  animation-name: tres;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.acuatro{
+  display: block;
+  animation-name: cuatro;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.acinco{
+  display: block;
+  animation-name: cinco;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.aseis{
+  display: block;
+  animation-name: seis;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.asiete{
+  display: block;
+  animation-name: siete;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.aocho{
+  display: block;
+  animation-name: ocho;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.anueve{
+  display: block;
+  animation-name: nueve;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.adiez{
+  display: block;
+  animation-name: diez;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.aonce{
+  display: block;
+  animation-name: once;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+
+}
+
+.adoce{
+  display: block;
+  animation-name: doce;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+/* animation */
+/*primer linea inferior*/
+@keyframes uno{
+  from{top: 90%;
+  }
+  to{
+  top: 0%;
+  }
+  }
+
+  @keyframes dos{
+  from{top: 90%;
+  left: 50%;
+  }
+  to{
+  top: 0%;
+  left: 50%;
+  }
+  }
+
+  @keyframes tres{
+    from{
+      top: 90%;
+      left: 90%;
+    }
+    to{
+    top: 0%;
+    left: 90%;
+    }
+    }
+
+/*segunda linea inferior*/
+    @keyframes cuatro{
+    from{top: 60%;
+
+    }
+    to{
+    top: 0%;
+
+    }
+    }
+
+    @keyframes cinco{
+      from{top: 60%;
+        left: 50%;
+      }
+      to{
+      top: 0%;
+      left: 50%;
+      }
+      }
+
+      @keyframes seis{
+      from{top: 60%;
+      left: 90%;
+      }
+      to{
+      top: 0%;
+      left: 90%;
+      }
+      }
+
+/*primer linea superior*/
+      @keyframes siete{
+        from{top: 0%;
+        }
+        to{
+        top: 90%;
+        }
+        }
+
+        @keyframes ocho{
+        from{top: 0%;
+        left: 50%;
+        }
+        to{
+        top: 90%;
+        left: 50%;
+        }
+        }
+
+        @keyframes nueve{
+          from{top: 0%;
+            left: 90%;
+          }
+          to{
+          top: 90%;
+          left: 90%;
+          }
+          }
+
+/*segunda linea superior*/
+          @keyframes diez{
+          from{top: 40%;
+          }
+          to{
+          top: 90%;
+          }
+          }
+
+          @keyframes once{
+            from{top: 40%;
+              left: 50%;
+            }
+            to{
+            top: 90%;
+            left: 50%;
+            }
+            }
+
+            @keyframes doce{
+            from{top: 40%;
+            left: 90%;
+            }
+            to{
+            top: 90%;
+            left: 90%;
+            }
+            }
